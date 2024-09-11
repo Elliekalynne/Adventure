@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>The Adventure Time</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você e seu grupo avançam pela Floresta das Águas Viventes, onde cada gota d’água parece ter vontade própria. Depois de horas caminhando, vocês chegam a uma bifurcação. À esquerda, o Reino Doce exala aromas de açúcar e mel, com montanhas feitas de biscoito e rios de calda fervente. À direita, o Reino da Noitosfera, 
+onde sombras dançam e criaturas sombrias sussurram segredos proibidos nas brumas escuras.</p>
+            <button class="btn-proximo" data-proximo="1">Reino Doce</button>
+            <button class="btn-proximo" data-proximo="2">Reino da Noitosfera</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>vocês entram em um cenário colorido e aparentemente acolhedor. No entanto, após alguns minutos de caminhada, o doce aroma do lugar começa a deixá-los sonolentos, e uma estranha névoa de açúcar aparece, cobrindo o caminho à frente. 
+De repente, criaturas feitas de caramelo derretido emergem do chão, bloqueando sua passagem. Elas não são agressivas, mas estão claramente em busca de algo. Para continuar, vocês terão que negociar com essas criaturas, oferecendo 
+                algo valioso em troca de um caminho seguro. Mas cuidado, pois cada acordo feito pode ter um preço inesperado!</p>
+            <button class="btn-proximo" data-proximo="3">Tentar encontrar um objeto doce e raro pelo reino que possa ser usado para a troca.</button>
+            <button class="btn-proximo" data-proximo="4">Enganar as criaturas, arriscando as consequências de um acordo mal feito.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Ao entrar no Reino da Noitosfera, a atmosfera muda drasticamente. O ar é pesado, e os sussurros das sombras parecem seguir vocês a cada passo. O chão é irregular, coberto de pedras negras e brumas inquietantes. De repente, uma sombra gigantesca se forma à sua frente, revelando uma figura demoníaca conhecida como um Guardião do Medo. Ele bloqueia o caminho com um olhar penetrante, dizendo que só aqueles que enfrentarem seus piores temores poderão passar.</p>
+            <button class="btn-proximo" data-proximo="5">Enfrentar o Guardião e seus desafios, mergulhando em um teste mental que revelará seus medos mais profundos.</button>
+            <button class="btn-proximo" data-proximo="6">Tentar enganá-lo, usando astúcia e ilusão, arriscando a ira do Guardião caso ele descubra o truque.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada no Amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
+                pista está no Amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
